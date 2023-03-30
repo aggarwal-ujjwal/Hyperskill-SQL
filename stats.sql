@@ -14,5 +14,14 @@ ORDER BY
   year, gender DESC;
 
 
---  Between
+--  Between example
 SELECT * FROM users WHERE year_of_birth BETWEEN 1980 AND 2000;
+
+--Creating table example
+CREATE TABLE census (
+    id INTEGER,
+    name VARCHAR(20),
+    birth_place_latitude REAL,
+    year_income DECIMAL(20,2),
+    is_parent BOOLEAN
+);
