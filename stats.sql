@@ -12,3 +12,7 @@ GROUP BY
   year, gender
 ORDER BY
   year, gender DESC;
+
+
+--  Between
+SELECT * FROM users WHERE year_of_birth BETWEEN 1980 AND 2000;
